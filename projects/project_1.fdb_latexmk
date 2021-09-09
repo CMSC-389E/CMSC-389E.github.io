@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1631224110 "/Users/aki/dev/CMSC-389E.github.io/projects/project_1.tex" "/Users/aki/dev/CMSC-389E.github.io/projects/project_1.pdf" "project_1" 1631224110
-  "/Users/aki/dev/CMSC-389E.github.io/projects/project_1.aux" 1631224110 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/Users/aki/dev/CMSC-389E.github.io/projects/project_1.tex" 1631224102 9283 8dc2c7957c6bacaf81abf41aa2aad336 ""
+["pdflatex"] 1631224836 "/Users/aki/dev/CMSC-389E.github.io/projects/project_1.tex" "/Users/aki/dev/CMSC-389E.github.io/projects/project_1.pdf" "project_1" 1631224836
+  "/Users/aki/dev/CMSC-389E.github.io/projects/project_1.aux" 1631224836 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/Users/aki/dev/CMSC-389E.github.io/projects/project_1.tex" 1631224832 9398 0ff177a34ac492cc1b5eae8dbb0ebbc9 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1202520719 2327 9d6df24f9c4f7368395224341a95523a ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -123,6 +123,7 @@
   "/usr/local/texlive/2020/texmf-dist/tex/latex/environ/environ.sty" 1399239813 4378 f429f0da968c278653359293040a8f52 ""
   "/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1579991033 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "/usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1569190624 45259 743c52a37a6e5ed83cfe0e128b2da10d ""
+  "/usr/local/texlive/2020/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty" 1548974385 11128 a53805799bebfed6358fc1658a18e41f ""
   "/usr/local/texlive/2020/texmf-dist/tex/latex/float/float.sty" 1137110151 6749 16d2656a1984957e674b149555f1ea1d ""
   "/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty" 1578002852 41601 9cf6c5257b1bc7af01a58859749dd37a ""
   "/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1459978653 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
@@ -170,11 +171,11 @@
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
   "project_1.aux" 0 -1 0 "pdflatex"
   "project_1.out" 0 -1 0 "pdflatex"
-  "project_1.tex" 1631224102 9283 8dc2c7957c6bacaf81abf41aa2aad336 ""
+  "project_1.tex" 1631224832 9398 0ff177a34ac492cc1b5eae8dbb0ebbc9 ""
   (generated)
   "project_1.log"
-  "project_1.aux"
-  "project_1.out"
   "/Users/aki/dev/CMSC-389E.github.io/projects/project_1.log"
-  "/Users/aki/dev/CMSC-389E.github.io/projects/project_1.pdf"
   "project_1.pdf"
+  "project_1.out"
+  "/Users/aki/dev/CMSC-389E.github.io/projects/project_1.pdf"
+  "project_1.aux"
