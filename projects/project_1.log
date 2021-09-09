@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  8 SEP 2021 14:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  9 SEP 2021 17:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -648,12 +648,12 @@ LaTeX Font Warning: Font shape `OT1/lmdh/bx/n' undefined
 
 [1
 
-{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
  (/Users/aki/dev/CMSC-389E.github.io/projects/project_1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
 
 
 Package rerunfilecheck Warning: File `project_1.out' has changed.
@@ -662,24 +662,24 @@ Package rerunfilecheck Warning: File `project_1.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `project_1.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  771C2875D19E45FFCB08A7B6FC85B7D9;397.
+(rerunfilecheck)             After:  F68679560A2BFC7554DA62BEE1B61B8D;525.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 30960 strings out of 480608
- 723019 string characters out of 5903631
+ 30966 strings out of 480608
+ 723102 string characters out of 5903631
  1112125 words of memory out of 5000000
- 46420 multiletter control sequences out of 15000+600000
+ 46423 multiletter control sequences out of 15000+600000
  543211 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,5n,75p,918b,455s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmdunh10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on /Users/aki/dev/CMSC-389E.github.io/projects/project_1.pdf (3 pages, 92643 bytes).
+Output written on /Users/aki/dev/CMSC-389E.github.io/projects/project_1.pdf (4 pages, 95985 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
+ 69 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
+ 14 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
