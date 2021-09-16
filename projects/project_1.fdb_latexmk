@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1631224836 "/Users/aki/dev/CMSC-389E.github.io/projects/project_1.tex" "/Users/aki/dev/CMSC-389E.github.io/projects/project_1.pdf" "project_1" 1631224836
-  "/Users/aki/dev/CMSC-389E.github.io/projects/project_1.aux" 1631224836 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/Users/aki/dev/CMSC-389E.github.io/projects/project_1.tex" 1631224832 9398 0ff177a34ac492cc1b5eae8dbb0ebbc9 ""
+["pdflatex"] 1631761707 "/Users/aki/dev/CMSC-389E.github.io/projects/project_1.tex" "/Users/aki/dev/CMSC-389E.github.io/projects/project_1.pdf" "project_1" 1631761707
+  "/Users/aki/dev/CMSC-389E.github.io/projects/project_1.aux" 1631761707 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/Users/aki/dev/CMSC-389E.github.io/projects/project_1.tex" 1631761694 8350 25e535ab4027f5ad82e57b446ae2e259 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1202520719 2327 9d6df24f9c4f7368395224341a95523a ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -171,11 +171,11 @@
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
   "project_1.aux" 0 -1 0 "pdflatex"
   "project_1.out" 0 -1 0 "pdflatex"
-  "project_1.tex" 1631224832 9398 0ff177a34ac492cc1b5eae8dbb0ebbc9 ""
+  "project_1.tex" 1631761694 8350 25e535ab4027f5ad82e57b446ae2e259 ""
   (generated)
   "project_1.log"
-  "/Users/aki/dev/CMSC-389E.github.io/projects/project_1.log"
-  "project_1.pdf"
   "project_1.out"
   "/Users/aki/dev/CMSC-389E.github.io/projects/project_1.pdf"
+  "/Users/aki/dev/CMSC-389E.github.io/projects/project_1.log"
   "project_1.aux"
+  "project_1.pdf"
