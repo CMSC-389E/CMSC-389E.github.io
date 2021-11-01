@@ -1,0 +1,12 @@
+\BOOKMARK [1][-]{section.1}{Looking More like a Computer Every Day}{}% 1
+\BOOKMARK [1][-]{section.2}{Conceptual Overview: Encoding/Decoding}{}% 2
+\BOOKMARK [1][-]{section.3}{Setup}{}% 3
+\BOOKMARK [1][-]{section.4}{Adding a Few More Functions}{}% 4
+\BOOKMARK [2][-]{subsection.4.1}{Bitshift Left}{section.4}% 5
+\BOOKMARK [2][-]{subsection.4.2}{Bitshift Right}{section.4}% 6
+\BOOKMARK [2][-]{subsection.4.3}{Subtraction}{section.4}% 7
+\BOOKMARK [2][-]{subsection.4.4}{Set if Less Than \(SLT\)}{section.4}% 8
+\BOOKMARK [1][-]{section.5}{We Giveth \(Adder\) and We Taketh Away \(Subtractor\)}{}% 9
+\BOOKMARK [1][-]{section.6}{The Opcode Controller}{}% 10
+\BOOKMARK [2][-]{subsection.6.1}{Video Resources}{section.6}% 11
+\BOOKMARK [1][-]{section.7}{Testing \046 Submission}{}% 12
