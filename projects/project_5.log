@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  1 NOV 2021 01:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  27 NOV 2021 19:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/aki/dev/CMSC-389E.github.io/projects/project_4.tex
-(/Users/aki/dev/CMSC-389E.github.io/projects/project_4.tex
+**/Users/aki/dev/CMSC-389E.github.io/projects/project_5.tex
+(/Users/aki/dev/CMSC-389E.github.io/projects/project_5.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06> (/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
@@ -556,7 +556,7 @@ Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
 \f@nch@O@orf=\skip62
 )
 
-/Users/aki/dev/CMSC-389E.github.io/projects/project_4.tex:29: Package kvsetkeys Error: Undefined key `colorline4'.
+/Users/aki/dev/CMSC-389E.github.io/projects/project_5.tex:29: Package kvsetkeys Error: Undefined key `colorline4'.
 
 See the kvsetkeys package documentation for explanation.
 Type  H <return>  for immediate help.
@@ -580,8 +580,8 @@ Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is usel
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count298
 \l__pdf_internal_box=\box69
-) (/Users/aki/dev/CMSC-389E.github.io/projects/project_4.aux)
-\openout1 = `project_4.aux'.
+) (/Users/aki/dev/CMSC-389E.github.io/projects/project_5.aux)
+\openout1 = `project_5.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
 LaTeX Font Info:    ... okay on input line 70.
@@ -667,7 +667,7 @@ LaTeX Info: Redefining \ref on input line 70.
 LaTeX Info: Redefining \pageref on input line 70.
 LaTeX Info: Redefining \nameref on input line 70.
 \@outlinefile=\write6
-\openout6 = `project_4.out'.
+\openout6 = `project_5.out'.
 
 LaTeX Font Info:    Trying to load font information for OT1+lmdh on input line 74.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmdh.fd
@@ -679,50 +679,77 @@ LaTeX Font Warning: Font shape `OT1/lmdh/bx/n' undefined
 
 [1{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-] [2]
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 223.
+]
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 148.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [3] [4]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 392.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+) [2]
+LaTeX Font Info:    Calculating math sizes for size <17> on input line 191.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <8.5> not available
+(Font)              size <8> substituted on input line 191.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <8.5> not available
+(Font)              size <8> substituted on input line 191.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <8.5> not available
+(Font)              size <8> substituted on input line 191.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 191.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 392.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 191.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [5] [6] [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 582.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 582.
- (/Users/aki/dev/CMSC-389E.github.io/projects/project_4.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 582.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 582.
+)
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 191.
 
 
-Package rerunfilecheck Warning: File `project_4.out' has changed.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 191.
+
+[3] [4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 221.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 221.
+ (/Users/aki/dev/CMSC-389E.github.io/projects/project_5.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 221.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 221.
+
+
+Package rerunfilecheck Warning: File `project_5.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
-Package rerunfilecheck Info: Checksums for `project_4.out':
+Package rerunfilecheck Info: Checksums for `project_5.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  E6D089BA1F81FD8E2B231EE4CBEDD846;775.
+(rerunfilecheck)             After:  3E1493FA998865A849908F622C5B5329;342.
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.5pt have occurred.
+
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 31244 strings out of 480608
- 727406 string characters out of 5903631
- 1128584 words of memory out of 5000000
- 46661 multiletter control sequences out of 15000+600000
- 550108 words of font info for 60 fonts, out of 8000000 for 9000
+ 31237 strings out of 480608
+ 727254 string characters out of 5903631
+ 1116229 words of memory out of 5000000
+ 46664 multiletter control sequences out of 15000+600000
+ 551914 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,12n,75p,880b,635s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmdunh10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on /Users/aki/dev/CMSC-389E.github.io/projects/project_4.pdf (7 pages, 165817 bytes).
+ 60i,11n,75p,880b,644s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmdunh10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on /Users/aki/dev/CMSC-389E.github.io/projects/project_5.pdf (4 pages, 113887 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
- 20 named destinations out of 1000 (max. 500000)
+ 72 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
