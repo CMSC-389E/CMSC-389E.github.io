@@ -81,6 +81,8 @@
 
         <p>For now, just remember that Redstone 'power' coming from a source block is finite in range, and that you'll have to take care to extend it when you need to.</p>
 
+        <img src="img/u1c3-4.png" alt="preset" class="inlinepic-big">
+
         <h3>Repeaters Provide Delay</h3>
 
         <p>For all intents and purposes, you can think of a redstone repeater as a simple range extender for a redstone current. Remember our previous example with a torch and wire? If we have redstone
@@ -117,9 +119,30 @@
         <p>As such, repeaters can be used as diodes, to prevent backflow. That is, you can effectively enforce a direction for current to travel on your wires. We will see the uses of this in future sections.</p>
 
 
-        <h3>Input and Output Blocks</h3>
-
+        <h3>Comparators</h3>
         <p>
+          Comparators are devices that take three input signals: one from the back and two from the sides. They operate in two modes:
+        </p>
+        <ul>
+          <li>
+            <strong>Subtract Mode:</strong> Computes <code>back - max(side1, side2)</code>.
+          </li>
+          <li>
+            <strong>Compare Mode:</strong> Outputs a signal if <code>back > side1</code> and <code>back > side2</code>.
+          </li>
+        </ul>
+        <p>
+          In other words, the comparator outputs signals only when specific conditions are met. You can right-click on a comparator to toggle between modes. 
+          We primarily use the subtract mode. Comparators are valuable tools for creating multiplexers, adders, and much more.
+        </p>
+        
+
+        <img src="img/u1c3-5.png" alt="preset" class="inlinepic-big">
+
+        <!-- DEPRECATED -->
+        <!-- <h3>Input and Output Blocks</h3> -->
+
+        <!-- <p>
           New in CMSC389E- the input and output blocks are very simple features that allow us to ’test’ the
 circuits that you have made. The idea is this: input blocks will produce a redstone current (identical
 to how a redstone torch does), and after a set amount of time to accomodate circuit delay, (you can
@@ -129,7 +152,7 @@ These blocks are not included in the Vanilla version of Minecraft, so you will o
 experiment with them in the modded CMSC389E version of the game. You can find more information regarding how to use the input/output blocks on the Project 0 specification document.
 As always, feel free to stop by office hours or post a question on Piazza if you have any questions.
 Now go forth, and experiment!
-        </p>
+        </p> -->
 
         
 
