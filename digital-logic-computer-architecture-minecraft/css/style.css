@@ -148,6 +148,13 @@ img.inlinepic {
     margin-left:30%
 }
 
+img.inlinepic-med {
+    margin-top: 26x;
+    margin-bottom: 26px;
+    width: 62.5%;
+    margin-left: 15%;
+}
+
 img.inlinepic-big {
     margin-top:16px;
     margin-bottom:32px;
@@ -177,6 +184,34 @@ button.rel {
     background-color:rgb(240, 238, 238);
     color:grey;
     border:0px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+th, td {
+    text-align: center;
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+pre {
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
 }
 
 /* container adjustment */

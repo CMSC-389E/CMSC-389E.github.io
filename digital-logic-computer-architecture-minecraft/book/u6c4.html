@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <script src="https://kit.fontawesome.com/ff03879f1f.js" crossorigin="anonymous"></script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Digital Logic Design &amp; Minecraft</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+
+  <div class="container container-large">
+    <h1>Putting Everything Together</h1>
+    <hr/>
+    <p>
+        We want to use some mechanism to select the specific register we want to see, right? Not just have them stored in memory. 
+        We can use the decoder that we learned from an earlier section to create those read and write lines. 
+        In our class examples, we use a <span class="highlight">4 to 16 decoder</span> (to signify our 16 registers).
+    </p>
+    <p>
+        Now, we can start to construct machine language! If we consider:
+    </p>
+    <ul>
+        <li>The first four bits as our <strong>opcode</strong></li>
+        <li>The second four bits as our <strong>register to write to</strong></li>
+        <li>The third set of four bits as our <strong>first input register</strong></li>
+        <li>The last set of four bits as our <strong>second input register</strong></li>
+    </ul>
+    <p>
+        We can create <span class="highlight">16-bit instructions</span>! Note, our assembler could instead process a smaller instruction bit size, but we'll keep it at 16 for simplicity.
+    </p>
+    <p>
+        For example:
+    </p>
+    <pre>
+add 3 1 2  (r3 = r1 + r2)
+1001 0011 0001 0010
+    </pre>
+    <p>
+        For more on immediate instructions, refer to <a href="u7.html">section 7</a>.
+    </p>
+
+      <div class="pagearrows">
+        <a href="u6c3.html" class="text-primary"><div class="back"> <i class="fas fa-chevron-left"></i> back </div></a>
+        <a href="u7.html" class="text-primary"><div class="forward">forward  <i class="fas fa-chevron-right"></i></div></a>
+      </div>
+
+    </div>
+
+</body>
