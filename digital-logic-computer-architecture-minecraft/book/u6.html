@@ -38,6 +38,15 @@
       but Minecraft tends to work well with 8-bit registers in terms of compact builds. 
       We primarily will use 16, 8-bit registers (<code>r0</code> … <code>r15</code>), which means we need four bits for a register file decoder (<code>2^4 = 16</code>).
     </p>
+
+    <img src="img/u6-1.png" alt="diagram" class="inlinepic">
+
+    <p>After you have read this entire module, the above diagram will start to make sense. It is essentially a dual-read register, 
+      capable of reading two input registers,<code>R0</code> and <code>R1</code>, along with a write register, <code>W</code>, and
+      some data to write to that write register. The outputs are reading those two registers. This visual is accredited to
+      <a href="https://www.youtube.com/@mattbatwings">matbatwings</a>; it helps you understand conceptually how memory is stored.
+      Don't worry about the clock and enable input signals for now.
+    </p>
   
     <div class="disclaimer">
       <h3>Disclaimer</h3>

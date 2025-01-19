@@ -87,11 +87,14 @@
               <li><a href="book/u6c1.html" target="book_iframe" id="u6c1" class="bg-light toc">D-Latch</a></li>
               <li><a href="book/u6c2.html" target="book_iframe" id="u6c2" class="bg-light toc">Read/Write Memory</a></li>
               <li><a href="book/u6c3.html" target="book_iframe" id="u6c3" class="bg-light toc">Opcontroller</a></li>
-              <li><a href="book/u6c4.html" target="book_iframe" id="u6c4" class="bg-light toc">Putting everything together</a></li>
             </ol>        
           </li>
           <li>
             <a href="book/u7.html" target="book_iframe" id="u3" class="bg-light toc">Instruction Memory</a>
+            <ol>
+              <li><a href="book/u7c1.html" target="book_iframe" id="u7c1" class="bg-light toc">How it Works</a></li>
+              <li><a href="book/u7c2.html" target="book_iframe" id="u7c2" class="bg-light toc">Immediate Operations</a></li>
+            </ol>   
           </li>
           <li>
             <a href="book/u8.html" target="book_iframe" id="u3" class="bg-light toc">Program Counter</a>
@@ -142,6 +145,20 @@
       $("#wrapper").toggleClass("toggled");
     });
   </script>
+
+  <!-- <script>
+    // Add click event to toggle nested lists
+    document.querySelectorAll('.expand').forEach((item) => {
+      item.addEventListener('click', (e) => {
+        e.preventDefault(); // Prevent navigation
+        const nestedList = item.nextElementSibling; // Find the next sibling <ol>
+        if (nestedList) {
+          nestedList.style.display = nestedList.style.display === "block" ? "none" : "block";
+          item.classList.toggle('active'); // Toggle the arrow indicator
+        }
+      });
+    });
+  </script> -->
 
 </body>
 
