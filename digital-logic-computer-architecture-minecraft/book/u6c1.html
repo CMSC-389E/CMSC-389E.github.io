@@ -23,12 +23,33 @@
   <div class="container container-large">
         <h1>D-Latch</h1>
         <hr/>
+
+        <h3>For nerds</h3>
+
+        <p></p>
+        <p>
+            A <strong>D-latch</strong> is a level-sensitive storage device that holds or updates its output based on the 
+            <strong>Enable (E)</strong> signal:
+        </p>
+        <ul>
+            <li><strong>When E = 0 (Latch Mode):</strong> The output (<strong>Q</strong>) remains unchanged, holding the last stored value.</li>
+            <li><strong>When E = 1 (Transparent Mode):</strong> The output follows the input (<strong>Q = D</strong>), meaning <strong>Q</strong> updates directly based on <strong>D</strong>.</li>
+            <li>The <strong>complement output</strong> (<span style="text-decoration: overline;">Q</span>) is always the opposite of <strong>Q</strong>, ensuring only one of them is high at a time.</li>
+        </ul>
+        <p>
+            This behavior makes the <strong>D-latch</strong> useful for temporary data storage in registers and memory elements.
+        </p>
+
+        <img src="img/u6c1-2.webp" alt="d-latch diagram" class="inlinepic-big">
+
+        <h3>In Minecraft</h3>
         <p>
             The beauty of Minecraft is that they gave us a mechanism for storing memory. Although there are many different practices, we primarily rely on the data-latch or d-latch. A d-latch is a simple way to hold data in place. You can construct one with two repeaters, where one repeater "locks" the other one. When the repeater lock is established, any input data will not affect what is stored in memory. When the repeater lock is released, the data slot can be updated at will. You can think of this as choosing when or when to not hit save on a file.
         </p>
         <p>Here is an example of a d-latch in three different setups. Try it yourself.</p>
 
         <img src="img/u6c1-1.png" alt="D-latch" class="inlinepic-big">
+
 
         <div class="pagearrows">
             <a href="u6.html" class="text-primary"><div class="back"> <i class="fas fa-chevron-left"></i> back </div></a>

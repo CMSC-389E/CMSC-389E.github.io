@@ -166,6 +166,13 @@ img.inlinepic-big {
     font-weight: bold;
 }
 
+div.disclaimer {
+    background-color: #f9f9f9;
+    border-left: 4px solid #ff9800;
+    padding: 10px;
+    margin: 20px 0;
+}
+
 div.schematic {
     border: 2px solid grey;
     border-radius: 5px;

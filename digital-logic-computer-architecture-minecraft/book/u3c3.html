@@ -72,12 +72,17 @@
     111000
         </pre>
         <p>
-            Carry cancel adders are synchronized adders because they receive all their carries at the same 
+            Carry cancel adders are <strong>synchronized adders</strong> because they receive all their carries at the same 
             time and produce outputs accordingly. The full adder from the previous module (also known as a 
             ripple carry adder) must propagate carries to other inputs first before an nth-place in a number 
             can be calculated. This is significantly faster for 8-bit addition. We will use the CCA in compact 
-            builds moving forwards.
+            builds moving forwards. <em>Given all of this</em>, take some time to understand the following logic diagram.
         </p>
+
+        <img src="img/u3c3-4.png" alt="carry-cancel-diagram" class="inlinepic-med">
+
+        <p></p>
+        <p>The below is a representation of the carry-cancel propagation. We utilize a glass tower to transmit a signal upwards, and the comparator can choose to cancel the signal at some point moving upward. The signal going through the back of the comparator is a carry signal at the nth digit, and the signal going through each side of the comparator is a cancel signal at the nth digit. Once you determine how to produce these signals given two inputs at some digit i, you can create a full CCA. Note, we will probably give you the schema for the CCA, but you should understand how this works. </p>
 
         <div class="schematic">
             <iframe name="not-gate" src="https://cubical.xyz/project/5XNwM" frameborder="0" class="mc-schematic"></iframe>
@@ -85,9 +90,6 @@
                 click to focus, press esc to exit. powered by cubical  <span style="float:right;"> click 'refresh' if the screen is black. <button class="rel" onclick="var ifr=document.getElementsByName('not-gate')[0]; ifr.src=ifr.src;">[refresh]</button></span>
             </div>
         </div>
-
-        <p></p>
-        <p>The above is a representation of the carry-cancel propagation. We utilize a glass tower to transmit a signal upwards, and the comparator can choose to cancel the signal at some point moving upward. The signal going through the back of the comparator is a carry signal at the nth digit, and the signal going through each side of the comparator is a cancel signal at the nth digit. Once you determine how to produce these signals given two inputs at some digit i, you can create a full CCA. Note, we will probably give you the schema for the CCA, but you should understand how this works. </p>
         
       </div>
 
