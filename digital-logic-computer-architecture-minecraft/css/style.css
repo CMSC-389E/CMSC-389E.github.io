@@ -272,3 +272,9 @@ pre {
 .container-large, .container-large {
     max-width: 100%;
 }
+
+iframe {
+    display: block; /* Makes iframe a block element */
+    margin: 0 auto; /* Horizontally centers iframe */
+    border: 1px solid #ccc; /* Optional border */
+}
