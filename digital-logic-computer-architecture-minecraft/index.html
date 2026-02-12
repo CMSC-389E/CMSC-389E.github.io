@@ -162,4 +162,14 @@
 
 </body>
 
+<script>
+  window.addEventListener("load", function() {
+    if (location.hash) {
+      const page = location.hash.substring(1);
+      document.getElementById("bookViewport").src = page;
+    }
+  });
+</script>
+
+
 </html>
